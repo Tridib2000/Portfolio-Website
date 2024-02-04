@@ -1,0 +1,327 @@
+*{
+    font-family: 'open sans';
+}
+
+
+/*navigation bar */
+
+
+.title{
+    font-size: 40px;
+    font-weight: 600;    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 170px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 20px;
+    font-weight: 600;
+    
+}
+
+.hire{
+    color: white;
+    font-size: 300;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 0;
+    padding: 20px 20px;
+    background: orange;
+}
+
+/* intro portion with bio and image */
+
+.intro{
+    margin:0 170px;
+    margin-bottom: 0;
+    display: flex; 
+    align-items: center;
+    padding: 0;
+}
+.intro_1{
+    font-size: 20px;
+    margin: 0 0 0 0;  
+}
+.intro_2{
+    font-size: 40px;
+    margin: 0 0 0 0;  
+}
+.intro_3{
+    font-size: 15px;
+    margin: 0 0 0 4;
+    text-align: justify;
+    color: rgb(95, 88, 79);
+}
+.cv_down{
+    color: white;
+    font-size: 300;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 0;
+    padding: 20px 20px;
+    background: orange;
+}
+.contact{
+    color: rgb(0, 0, 0);
+    font-size: 300;
+    font-weight: 600;
+    border-radius: 10px;
+    border-color: orange ;
+    padding: 20px 20px;
+    background: rgb(255, 242, 219);
+    margin-left: 30px;
+}
+.con_cv{
+    display: flex;
+    margin: 0 px;
+}
+
+
+
+.header{
+    background: antiquewhite;
+    background-image: url('images/WELCOME.png' );
+    background-size: contain;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    padding: 0 20px;
+}    
+.circle {
+    width: 150px; /* Set the desired width and height for the circle */
+    height: 150px;
+    background-color: orange; /* Set the background color */
+    border-radius: 50%; /* Make the div a circle by setting the border-radius to 50% */
+    opacity: 80%;
+    position: absolute; /* Position the circle absolutely within its containing element */
+    top: 100%; /* Set the top position as needed */
+    left: 100%; /* Set the left position as needed */
+    transform: translate(-50%, -50%);
+    
+}
+.circle1 {
+    width: 250px; /* Set the desired width and height for the circle */
+    height: 250px;
+    background-color: orange; /* Set the background color */
+    border-radius: 50%; /* Make the div a circle by setting the border-radius to 50% */
+    opacity: 60%;
+    position: absolute; /* Position the circle absolutely within its containing element */
+    top: 100%; /* Set the top position as needed */
+    left: 100%; /* Set the left position as needed */
+    transform: translate(-50%, -50%);
+    z-index: 0;    
+}
+.circle2 {
+    width: 350px; /* Set the desired width and height for the circle */
+    height: 350px;
+    background-color: orange; /* Set the background color */
+    border-radius: 50%; /* Make the div a circle by setting the border-radius to 50% */
+    opacity: 40%;
+    position: absolute; /* Position the circle absolutely within its containing element */
+    top: 100%; /* Set the top position as needed */
+    left: 100%; /* Set the left position as needed */
+    transform: translate(-50%, -50%);
+    z-index: 0;   
+}
+.circle3 {
+    width: 450px; /* Set the desired width and height for the circle */
+    height: 450px;
+    background-color: orange; /* Set the background color */
+    border-radius: 50%; /* Make the div a circle by setting the border-radius to 50% */
+    opacity: 20%;
+    position: absolute; /* Position the circle absolutely within its containing element */
+    top: 100%; /* Set the top position as needed */
+    left: 100%; /* Set the left position as needed */
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    
+}
+
+.intro {
+    position: relative; /* Make the intro section a positioned container */
+    /* Adjust styles for the intro section as needed */
+}
+
+
+
+
+
+
+
+/* main section */
+
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.mainsec{
+    background: antiquewhite;
+    margin-top: 100px;
+    padding: 5%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .6);
+    margin-bottom: 100px;
+}
+
+.aboutme{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.medescription{
+    margin-bottom: 50px;
+}
+
+
+/* my details */
+.details{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+.details1{
+    color: rgb(81, 88, 88);
+    margin: 0;
+    font-weight: 700;
+}
+.details2{
+    color: rgb(46, 56, 56);
+    margin-bottom: 0;
+}
+
+
+/* skills container */
+.skilltitle{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.skill{
+    background: antiquewhite;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .6);
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+.skills{
+    display: flex;
+    text-align: center;
+    gap: 30px;
+}
+
+.skillname{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill-container{
+    background: rgb(244, 253, 251);
+    margin-top: 100px;
+    padding: 5%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .6);
+    margin-bottom: 100px;
+}
+
+
+
+
+/* resume */
+
+.resumetitle{
+    
+    text-align: center;
+}
+
+.experience{
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 40px;
+    padding: 20px 40px;
+
+}
+.exptitle{
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.exptitle1{
+    font-weight: 600;
+}
+
+.schoolname{
+    font-size: 20px;
+    margin:0%
+} 
+
+.experience2{
+    margin-bottom: 40px;
+}
+
+.experience{
+    text-align: left;
+}
+
+.experiencejob{
+    text-align: right;
+}
+.cvdownbutton{
+    text-align: center;
+}
+.resume{
+    background: antiquewhite;
+    margin-top: 100px;
+    padding: 5%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .6);
+    margin-bottom: 100px;
+}
+
+
+
+
+/* ending */
+.ending{
+    
+    background: antiquewhite;
+    padding: 5%;
+    
+}
+
+.ending input, textarea{
+    display: block;
+    border: 0;
+    margin: 10px;
+    
+    text-align: right;
+    
+}
+
+.endtitle{
+    font-weight: 700;
+    margin-top: 40px;
+}
+.form{
+    text-align: right;
+
+}
+
+
+
+
+
+/*Color*/
+.orange{
+    color: orange;
+}
